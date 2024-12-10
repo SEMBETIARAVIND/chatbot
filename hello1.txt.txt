@@ -1,0 +1,5 @@
+# Open the file in write mode to overwrite its content
+with open('hello.txt', 'w') as file:
+    file.write('asdfasdf')
+
+print("File updated successfully.")
